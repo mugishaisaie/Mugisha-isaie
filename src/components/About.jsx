@@ -10,7 +10,17 @@ const About = () => {
       <article>
     <SectionTitle text="About Me"/>
     <p className='text-slate-600 mt-8 leading-loose'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus rem deserunt sit nostrum ducimus eos ea cum doloribus nemo unde, ad, optio cupiditate repellendus quisquam consequatur ipsa sunt suscipit voluptates eligendi vero aliquam dolorum non facilis? Illum unde aliquid eius soluta sed ipsam adipisci ducimus, sit porro, reprehenderit iure eveniet quae inventore earum laboriosam ut non aspernatur quisquam obcaecati quaerat excepturi architecto! Inventore, voluptate quidem suscipit nemo dolore placeat similique distinctio omnis sed quaerat velit facilis tempora? Beatae, earum voluptate fugiat odio eveniet dolore nostrum quisquam impedit sit incidunt provident dolores ad officia odit accusantium necessitatibus aperiam culpa blanditiis voluptates. Perspiciatis ipsa temporibus accusamus veniam? Iste laborum eius dolores, ipsum obcaecati assumenda provident optio dolorem deleniti ipsa itaque deserunt.
+    Frontend Developer with over 3 years of experience in creating responsive and
+engaging web applications. Skilled in Frontend and Basics on Backed Web
+development Skills such as JavaScript, ReactJS, and HTML/CSS,Bootstrap,
+Tailwind CSS, PHP and SQL with a proven track record of coaching junior
+developers and optimizing web performance to enhance user experience.
+Passionate about building user-friendly applications that bring ideas to life,
+with experience in both educational and corporate settings Highly capable
+Front End Developer offering multilingual programming, system monitoring
+and maintenance prowess. Constantly automated build, deployment, and
+integration processes, increasing team productivity 100%. Expert developer
+well-versed in Agile and Scrum methodologies.
     </p>
       </article>
       </div>

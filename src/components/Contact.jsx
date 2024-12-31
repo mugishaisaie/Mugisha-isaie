@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 
 const Contact = () => {
   return (
-    <section className='align-element py-20'>
+    <section className='align-element py-20' id='Contact'>
         <SectionTitle text="You can Reach me Immediately By" />
 
     <div>

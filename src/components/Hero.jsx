@@ -13,25 +13,25 @@ const Hero = () => {
                 </p>
                 <p className='mt-6 capitalize tracking-wider text-lg text-slate-700'>turning ideas into interactive and and Dynamics  Reality</p>
                 <div className='flex gap-x-4 mt-4'>
-            <a href="#">
+            <a href="github.com/mugishaisaie">
                 <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/mugisha-isaie-35726a249/">
                 <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
-            <a href="#">
+            <a href="https://x.com/Mugishaisaieog">
                 <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/muugishaisaie/">
                 <FaInstagram className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/@IsaiMugisha">
                 <FaYoutubeSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
         </div>
             </article>
             <article className='hidden md:block'>
-                <img src={heroImg} alt="hero img" className='h-80  bg-orange-200 rounded-full  lg:h-96' />
+                <img src={heroImg} alt="hero img" className='h-80 rounded-full  lg:h-96' />
             </article>
         </div>
       

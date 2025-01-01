@@ -4,20 +4,20 @@ import SectionTitle from './SectionTitle'
 
 const Contact = () => {
   return (
-    <section className='align-element bg-emerald-100 align-element py-20' id='Contact'>
-        <SectionTitle text="You can Reach me Immediately By" />
+    <section className=' bg-emerald-50  py-20' id='Contact'>
 
-    <div className=' w-full grid '>
-      <div>
-        <p className='my-5'>Call me</p>
-        <span className='flex justify-center items-center'><FaPhoneSquare className='h-16 w-16 text-blue-950 ' /><p> +250 790025794 / +250 79 0085437</p></span>
+        <p className='text-center text-slate-800 text-3xl underline uppercase'>You can Reach me Immediately By </p>
+    <div className='align-element w-full grid grid-cols-1 gap-4 sm:grid-cols-3 '>
+      <div className='flex flex-col content-center items-center'>
+        <p className='my-2 ml-0 uppercase text-slate-950 font-sans font-medium'>Call me</p>
+        <span className='flex justify-center items-center '><FaPhoneSquare className='h-10 w-10 text-blue-950 ' /><p> +250 790025794</p></span>
       </div>
-      <div>
-        <p className='my-5 font-serif font-medium'>WhatsApp me</p>
-        <span className='flex text-center justify-center items-center'> <FaWhatsapp className='h-16 w-16 text-blue-950'/><p>+250 790025794 / +250 79 0085437</p></span>
+      <div className='flex flex-col content-center items-center'>
+        <p className='my-2 ml-0 uppercase text-slate-950 font-sans font-medium'>WhatsApp me</p>
+        <span className='flex text-center justify-center items-center'> <FaWhatsapp className='h-16 w-16 text-blue-950'/><p>+250 790025794</p></span>
       </div>
-      <div>
-        <p className='my-5'>Email me</p>
+      <div className='flex flex-col content-center items-center'>
+        <p className='my-2 ml-0 uppercase text-slate-950 font-sans font-medium'>Email me</p>
         <span className='flex text-center justify-center items-center'><FaEnvelope className='h-16 w-16 text-blue-950'/><p>mugishaisaieog1@gmail.com</p></span>
       </div>
       

@@ -1,6 +1,14 @@
 import { nanoid } from 'nanoid';
 import { FaBootstrap, FaHtml5, FaJs, FaPhp, FaReact } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa6';
+import amazonImg from './assets/images/amazon-project.png'
+import socialbookImg from './assets/images/social_book_clone.png'
+import rockPaperScisImg from './assets/images/rock-paper-scissor.png'
+import reviewImg from './assets/images/reviews.png'
+import WorldWiseImg from './assets/images/world-wise-app.png'
+import toursImg from './assets/images/tours.png'
+import imagesSplashImg from './assets/images/unsplash images.png'
+import questionImg from './assets/images/questions.png'
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
@@ -68,65 +76,73 @@ export const projects = [
   {
     id: nanoid(),
     title: 'Social Book Clone',
-    image: './assets/projects/social_book_clone.png',
+    image: socialbookImg,
     url: 'https://isaie-social-book.netlify.app',
     github: 'https://github.com/mugishaisaie/socialbook',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: `Check out this Socialbook clone I've built! It’s a fully functional social media platform inspired by Facebook, complete with user authentication, posting, and real-time updates. I’d love to hear your thoughts and feedback on how I can improve it.`,
   },
   {
     id: nanoid(),
     title: 'Amazon Web Clone',
-    image: './assets/amazon-project.png',
+    image: amazonImg,
     url: 'https://isaie-review.netlify.app/',
     github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'I recently completed an Amazon clone project, where I recreated key features like product browsing, shopping cart, and checkout functionality. this help me to Improve Javascript Skills.',
   },
   {
     id: nanoid(),
     title: 'Rock-Paper-Scissor Game',
-    image: './assets/projects/rock-paper-scissor.png',
-    url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    image: rockPaperScisImg,
+    url: 'https://isaie-rock-paper-scissor.netlify.app',
+    github: 'https://github.com/mugishaisaie/Rock-Paper-and-Scissor-Game',
+    text: `I recently created a clone of the classic Rock-Paper-Scissors game, where players can challenge the computer in a fun, interactive match." "This project helped me dive deeper into logic handling and user interface design, making it both functional and visually engaging." "The game is built with [mention the technologies used, e.g., HTML, CSS, and JavaScript], and it's a great example of how simple concepts can be turned into enjoyable web applications."`,
   },
   {
     id: nanoid(),
-    title: 'WorldWise Web App',
-    image: './assets/projects/world-wise-app.png',
-    url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    title: 'Accordion App',
+    image: questionImg,
+    url: 'https://isaie-questions.netlify.app/',
+    github: 'https://github.com/mugishaisaie/Accordion-React-App',
+    text: `The Accordion App is a dynamic and interactive component built with React.js and styled with CSS. It allows users to toggle between sections to reveal or hide content, providing an efficient way to display information in a compact and user-friendly format. Key features include smooth transitions, responsive design for all devices, and customizable styling. This project showcases my ability to build modular and reusable components using React, demonstrating proficiency in state management and CSS styling.`,
   },
+  
   {
     id: nanoid(),
     title: 'Reviews  App',
-    image: './assets/projects/reviews.png',
+    image: reviewImg,
     url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    github: 'https://github.com/mugishaisaie/React-Review-App',
+    text: `A dynamic and responsive application built with React.js and styled using CSS. This app fetches user reviews from a mock API using the useEffect hook and manages the application state effectively. This application allow you to review through friends and their details`,
   },
   {
     id: nanoid(),
     title: 'tours App',
-    image: './assets/projects/tours.png',
+    image: toursImg,
     url: 'https://isaie-tour.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    github: 'https://github.com/mugishaisaie/React-Tours-Project',
+    text: `This React.js and CSS-powered application showcases a sleek and responsive interface for exploring various travel tours. The app dynamically fetches and displays tour details, including descriptions, images, and pricing. Users can interact with features like removing tours or reading more about each destination, ensuring an engaging and user-friendly experience. `,
   },
   {
     id: nanoid(),
     title: 'Unsplash images',
-    image: './assets/unsplash images.png',
+    image: imagesSplashImg,
     url: 'https://isaiesplash.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    github: 'https://github.com/mugishaisaie/Unsplash-Images-React-Project',
+    text: `This project is a visually appealing and fully functional clone of Unsplash
+Dynamic Image Fetching Powered by React Query, ensuring seamless and efficient data fetching and caching.
+Router Integration Enables smooth navigation between pages, enhancing user experience.
+Responsive Design,
+Search Functionality,
+, Mimics the original Unsplash interface for familiarity`,
   },
   {
     id: nanoid(),
-    title: 'questions App',
-    image: './assets/questions.png',
-    url: 'https://isaie-questions.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
+    title: 'WorldWise Web App',
+    image: WorldWiseImg,
+    url: 'https://isaie-world-wide.netlify.app',
+    github: 'https://github.com/mugishaisaie/WorldWise-Application',
+    text: `The WorldWise Web App is an interactive platform designed to provide users with real-time global insights and data. Built with React.js and styled using CSS Modules,The app demonstrates proficiency in handling data-driven applications, creating reusable components, and implementing advanced React concepts like state management and routing. It's a showcase of both technical expertise and an eye for user-centric design.`,
+  },  
+ 
+  
 ];

@@ -68,15 +68,15 @@ export const projects = [
   {
     id: nanoid(),
     title: 'Social Book Clone',
-    image: './assets/reviews.png',
-    url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    image: './assets/projects/social_book_clone.png',
+    url: 'https://isaie-social-book.netlify.app',
+    github: 'https://github.com/mugishaisaie/socialbook',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
     title: 'Amazon Web Clone',
-    image: './assets/reviews.png',
+    image: './assets/amazon-project.png',
     url: 'https://isaie-review.netlify.app/',
     github: 'https://github.com/john-smilga',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
@@ -84,7 +84,7 @@ export const projects = [
   {
     id: nanoid(),
     title: 'Rock-Paper-Scissor Game',
-    image: './assets/reviews.png',
+    image: './assets/projects/rock-paper-scissor.png',
     url: 'https://isaie-review.netlify.app/',
     github: 'https://github.com/john-smilga',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
@@ -92,7 +92,7 @@ export const projects = [
   {
     id: nanoid(),
     title: 'WorldWise Web App',
-    image: './assets/reviews.png',
+    image: './assets/projects/world-wise-app.png',
     url: 'https://isaie-review.netlify.app/',
     github: 'https://github.com/john-smilga',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
@@ -100,7 +100,7 @@ export const projects = [
   {
     id: nanoid(),
     title: 'Reviews  App',
-    image: './assets/reviews.png',
+    image: './assets/projects/reviews.png',
     url: 'https://isaie-review.netlify.app/',
     github: 'https://github.com/john-smilga',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
@@ -108,7 +108,7 @@ export const projects = [
   {
     id: nanoid(),
     title: 'tours App',
-    image: './assets/tours.png',
+    image: './assets/projects/tours.png',
     url: 'https://isaie-tour.netlify.app/',
     github: 'https://github.com/john-smilga',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',

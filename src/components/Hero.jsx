@@ -1,10 +1,10 @@
 import React from 'react'
-import {FaGithubSquare,FaLinkedin,FaTwitterSquare,FaYoutubeSquare} from 'react-icons/fa'
+import {FaGithubSquare,FaInstagram,FaLinkedin,FaTwitterSquare,FaYoutubeSquare} from 'react-icons/fa'
 import heroImg from "../assets/hero.svg"
 
 const Hero = () => {
   return (
-    <div className='bg-orange-200 py-24'>
+    <div className='bg-emerald-100 py-24'>
         <div className="align-element grid md:grid-cols-2 items-center gap-8">
             <article>
                 <h1 className='text-7xl font-bold tracking-wide'>I'm Isaie </h1>
@@ -23,12 +23,15 @@ const Hero = () => {
                 <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
             <a href="#">
+                <FaInstagram className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
+            </a>
+            <a href="#">
                 <FaYoutubeSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
             </a>
         </div>
             </article>
             <article className='hidden md:block'>
-                <img src={heroImg} alt="hero img" className='h-80 rounded-full  lg:h-96' />
+                <img src={heroImg} alt="hero img" className='h-80  bg-orange-200 rounded-full  lg:h-96' />
             </article>
         </div>
       

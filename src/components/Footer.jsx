@@ -1,9 +1,13 @@
 import React from 'react'
+import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
+import ScrollPage from './ScrollPage';
 
 const Footer = () => {
+    
   return (
-    <footer className='center  mb-0 mt-5 bg-slate-200 py-5'>
-      <p className='text-center font-medium text-2xl leading-loose'>Mugisha Isaie Frontend Web Developer &copy; 2024</p>
+    <footer className=' grid content-center items-center grid-cols-2'>
+        
+      <p className='text-center font-medium text-1xl leading-loose'>Mugisha Isaie Frontend Web Developer &copy; 2024</p>
     </footer>
   )
 }

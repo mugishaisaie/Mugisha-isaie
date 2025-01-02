@@ -1,6 +1,9 @@
 import React from 'react'
-import { FaGithubSquare } from 'react-icons/fa'
+import { FaArrowDown, FaArrowUp, FaGithubSquare } from 'react-icons/fa'
 import { TbBrandGithub, TbWorldWww } from 'react-icons/tb'
+import ScrollDown from './ScrollDown'
+import ScrollUp from './ScrollUp'
+import ScrollPage from './ScrollPage'
 
 const ProjectCard = ({url,github,title,image,text}) => {
   return (
@@ -18,7 +21,9 @@ const ProjectCard = ({url,github,title,image,text}) => {
             </a>
         </div>
       </div>
+      
     </article>
+    
   )
 }
 

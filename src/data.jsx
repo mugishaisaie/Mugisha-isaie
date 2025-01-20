@@ -86,7 +86,7 @@ export const projects = [
     title: 'Amazon Web Clone',
     image: amazonImg,
     url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/mugishaisaie/Amazon-Website-Project',
+    github: 'https://amazon-website-project.vercel.app/',
     text: 'I recently completed an Amazon clone project, where I recreated key features like product browsing, shopping cart, and checkout functionality. this help me to Improve Javascript Skills.',
   },
   {

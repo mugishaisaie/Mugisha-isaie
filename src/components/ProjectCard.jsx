@@ -8,7 +8,7 @@ import ScrollPage from './ScrollPage'
 const ProjectCard = ({url,github,title,image,text}) => {
   return (
     <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300'>
-      <img src={image} alt={title}  className='w-full object-full rounded-t-lg h-64'/>
+      <img src={image} alt={title}  className='w-full h-auto object-cover rounded-t-lg h-64'/>
       <div className='p-8 capitalize'>
         <h2 className='font-bold capitalize text-xl tracking-wide'>{title}</h2>
         <p className='mt-6 text-slate-700 leading-loose'>{text}</p>

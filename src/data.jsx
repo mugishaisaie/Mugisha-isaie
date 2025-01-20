@@ -27,7 +27,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'CSS3 & Tailwind',
-    icon: <FaCss3 className='h-16 w-16 text-emerald-900' />,
+    icon: <FaCss3 className='h-16 w-16 text-emerald-900 items-center text-center' />,
     text: `With CSS3 and Tailwind CSS Framework I'm Proficient in crafting responsive layouts, animations, and visually appealing designs , Expertise in Flexbox, Grid, and media queries to ensure cross-device compatibility. Skilled in optimizing styles for performance and maintainability and also Experienced in building modern, responsive and Amazingly UIs with Tailwind CSS. `,
   },
   {
@@ -86,7 +86,7 @@ export const projects = [
     title: 'Amazon Web Clone',
     image: amazonImg,
     url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    github: 'https://github.com/mugishaisaie/Amazon-Website-Project',
     text: 'I recently completed an Amazon clone project, where I recreated key features like product browsing, shopping cart, and checkout functionality. this help me to Improve Javascript Skills.',
   },
   {
@@ -97,23 +97,7 @@ export const projects = [
     github: 'https://github.com/mugishaisaie/Rock-Paper-and-Scissor-Game',
     text: `I recently created a clone of the classic Rock-Paper-Scissors game, where players can challenge the computer in a fun, interactive match." "This project helped me dive deeper into logic handling and user interface design, making it both functional and visually engaging." "The game is built with [mention the technologies used, e.g., HTML, CSS, and JavaScript], and it's a great example of how simple concepts can be turned into enjoyable web applications."`,
   },
-  {
-    id: nanoid(),
-    title: 'Accordion App',
-    image: questionImg,
-    url: 'https://isaie-questions.netlify.app/',
-    github: 'https://github.com/mugishaisaie/Accordion-React-App',
-    text: `The Accordion App is a dynamic and interactive component built with React.js and styled with CSS. It allows users to toggle between sections to reveal or hide content, providing an efficient way to display information in a compact and user-friendly format. Key features include smooth transitions, responsive design for all devices, and customizable styling. This project showcases my ability to build modular and reusable components using React, demonstrating proficiency in state management and CSS styling.`,
-  },
   
-  {
-    id: nanoid(),
-    title: 'Reviews  App',
-    image: reviewImg,
-    url: 'https://isaie-review.netlify.app/',
-    github: 'https://github.com/mugishaisaie/React-Review-App',
-    text: `A dynamic and responsive application built with React.js and styled using CSS. This app fetches user reviews from a mock API using the useEffect hook and manages the application state effectively. This application allow you to review through friends and their details`,
-  },
   {
     id: nanoid(),
     title: 'tours App',

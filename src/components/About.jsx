@@ -9,7 +9,7 @@ const About = () => {
         <img src={aboutImg} alt="about image" className='h-80 rounded-full  lg:h-96'/>
       <article>
     <SectionTitle text="About Me"/>
-    <p className='text-slate-800 mt-8 leading-loose'>
+    <p className='text-slate-800 mt-2 leading-loose'>
     Frontend Developer with over 3 years of experience in creating responsive and
 engaging web applications. Skilled in Frontend and Basics on Backed Web
 development Skills such as JavaScript, ReactJS, and HTML/CSS,Bootstrap,

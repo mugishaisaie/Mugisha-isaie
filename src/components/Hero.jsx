@@ -13,7 +13,7 @@ const Hero = () => {
                 <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
                     Frontend Developer
                 </p>
-                <p className='mt-6 capitalize tracking-wider text-lg text-slate-700'>Crafting seamless interfaces, where design meets functionality.
+                <p className='mt-6 capitalize tracking-wider text-lg text-slate-800'>Crafting seamless interfaces, where design meets functionality.
                 Turning code into captivating user experiences.</p>
                 <div className='flex gap-x-4 mt-4'>
             <a href="github.com/mugishaisaie">

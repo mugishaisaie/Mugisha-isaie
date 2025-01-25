@@ -12,10 +12,8 @@ export default function App() {
   <>
    <Navbar />
   <Hero />
-  <ScrollPage />
   <About />
   <Skills />
-  <ScrollPage />
   <Projects />
   <Contact />
   <ScrollPage />

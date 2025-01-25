@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 
 const Contact = () => {
   return (
-    <section className=' bg-emerald-100  py-20' id='Contact'>
+    <section className='bg-green-200  py-20' id='Contact'>
 
         <p className='text-center text-slate-800 text-3xl underline uppercase mb-4'>You can Reach me Immediately By </p>
     <div className='align-element w-full grid grid-cols-1 gap-4 sm:grid-cols-3 '>

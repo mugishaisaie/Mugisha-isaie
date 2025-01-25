@@ -6,7 +6,7 @@ import ScrollUp from './ScrollUp'
 
 const Hero = () => {
   return (
-    <div className='bg-emerald-100 py-8'>
+    <div className='bg-green-200 py-8'>
         <div className="align-element grid md:grid-cols-2 items-center gap-8">
             <article>
                 <h1 className='text-7xl font-bold tracking-wide'>I'm Isaie </h1>

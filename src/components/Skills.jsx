@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle'
 
 const Skills = () => {
   return (
-    <section className='py-20 align-element' id='skills'>
+    <section className='bg-green-200 w-full py-10 align-element' id='skills'>
         <SectionTitle text="TeckStack Skills"/>
         <div className="py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {skills.map((skill)=>{
